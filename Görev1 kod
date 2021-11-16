@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+#define G 9.80665 
+
+int main(){
+	float t;
+	cin >> t;
+	float x = 0.5*G*t*t;
+	cout << x;
+}
